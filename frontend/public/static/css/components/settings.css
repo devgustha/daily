@@ -1,0 +1,27 @@
+#settings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.setting-card {
+    flex: 1 1 300px;
+    background-color: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    max-height: 4rem;
+
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.setting-card.left {
+    left: 0;
+}
+
+.setting-card.right {
+    right: 0;
+}

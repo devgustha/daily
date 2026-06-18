@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    flex: 0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
+    justify-content: center;
+
+}
+
+main {
+    flex: 2;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    width: 95vw;
+    height: 95vh;
+    padding: 1.5rem;
+    margin: 1.2rem;
+}
+
+footer {
+    flex: 0;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+}

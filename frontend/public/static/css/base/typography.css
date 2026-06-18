@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-md);
+    font-weight: 400;
+}
+
+a {
+    font-size: var(--font-size-md);
+}
