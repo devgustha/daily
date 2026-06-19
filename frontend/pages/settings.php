@@ -3,12 +3,12 @@
 <main>
     <section id="settings-container">
         <h1 class="center-text">Configurações</h1>
-        <div class="setting-card left">
+        <div class="setting-card">
             <h3 class="left-text">Tema</h3>
             <button>Escuro</button>
         </div>
     
-        <div class="setting-card right">
+        <div class="setting-card">
             <h3 class="left-text">Tema</h3>
             <button>Escuro</button>
         </div>
