@@ -53,6 +53,14 @@
 	--border-primary: #475569;
 	--border-secondary: #334155;
 
+	--cancel: #ef4444;
+	--cancel-hover: #c02222;
+	--cancel-active: #a50606;
+
+	--confirm: #44ef44;
+	--confirm-hover: #22c022;
+	--confirm-active: #06a506;
+
 	--accent: #7c3aed;
 	--accent-hover: #8b5cf6;
 	--accent-active: #6d28d9;
