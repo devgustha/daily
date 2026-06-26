@@ -38,6 +38,58 @@
 	--shadow-md: 0 4px 8px rgb(0 0 0 / 15%);
 	--shadow-lg: 0 8px 16px rgb(0 0 0 / 20%);
 
+	/* Animations */
+	--transition-fast: 150ms;
+	--transition-normal: 300ms;
+	--transition-slow: 500ms;
+}
+
+.light-theme {
+	/* Backgrounds */
+	--bg-primary: #f8fafc;
+	--bg-secondary: #f1f5f9;
+	--bg-tertiary: #e2e8f0;
+
+	/* Text */
+	--text-primary: #0f172a;
+	--text-secondary: #334155;
+	--text-muted: #64748b;
+	--text-inverse: #ffffff;
+
+	/* Surfaces */
+	--surface-primary: #ffffff;
+	--surface-secondary: #f8fafc;
+
+	/* Borders */
+	--border-primary: #cbd5e1;
+	--border-secondary: #e2e8f0;
+
+	/* Buttons */
+	--cancel: #ef4444;
+	--cancel-hover: #dc2626;
+	--cancel-active: #b91c1c;
+
+	--confirm: #22c55e;
+	--confirm-hover: #16a34a;
+	--confirm-active: #15803d;
+
+	/* Accent */
+	--accent: #7c3aed;
+	--accent-hover: #8b5cf6;
+	--accent-active: #6d28d9;
+
+	/* States */
+	--success: #22c55e;
+	--warning: #f59e0b;
+	--error: #ef4444;
+	--info: #06b6d4;
+
+	/* Links */
+	--link: var(--accent);
+	--link-hover: var(--accent-hover);
+}
+
+.dark-theme {
 	--bg-primary: #0f172a;
 	--bg-secondary: #161f38;
 	--bg-tertiary: #1e293b;
@@ -74,9 +126,4 @@
 	/* Links */
 	--link: var(--accent);
 	--link-hover: var(--accent-hover);
-
-	/* Animations */
-	--transition-fast: 150ms;
-	--transition-normal: 300ms;
-	--transition-slow: 500ms;
 }

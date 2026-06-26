@@ -1,0 +1,1 @@
+D:/bin/php/php.exe -S %1:5500 -t frontend/public

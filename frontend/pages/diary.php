@@ -18,8 +18,8 @@
 		<textarea id="new-entry-content"></textarea>
 
 		<div class="actions">
-			<button class="confirm-btn">Criar entrada</button>
-			<button class="cancel-btn">Cancelar</button>
+			<button class="confirm-btn" onclick="createNewEntry()">Criar entrada</button>
+			<button class="cancel-btn" onclick="closeNewEntryModal()">Cancelar</button>
 		</div>
 	</dialog>
 

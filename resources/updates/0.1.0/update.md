@@ -3,3 +3,5 @@ DATE: 2026 / 06 / 17
 
 # ADDED
 - Initial interface
+- Diary interface
+- Settings interface
