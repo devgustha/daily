@@ -3,7 +3,7 @@ DATE: 2026 / 06 / 25
 
 # FIXED
 - Interface size
-- Bad design
+- Boxes with bad width/height
 
 # ADDED
 - Theme changing

@@ -28,8 +28,10 @@ main {
 
 nav {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: left;
+	gap: 2rem;
 	width: 100%;
 }
 
