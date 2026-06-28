@@ -1,0 +1,93 @@
+body {
+	background-color: var(--bg-primary);
+	color: var(--text-primary);
+}
+
+header {
+	background-color: var(--bg-secondary);
+}
+
+
+h1 {
+	color: var(--text-primary);
+}
+
+a {
+	text-decoration: none;
+	color: var(--link);
+	transition: all var(--transition-fast) ease-in-out;
+}
+
+a:hover {
+	color: var(--link-hover);
+	cursor: pointer;
+}
+
+details:not([open]) summary {
+	text-overflow: ellipsis;
+	white-space: no-wrap;
+	overflow: hidden;
+}
+
+details[open] summary {
+	white-space: normal;
+}
+
+footer {
+	background-color: var(--bg-secondary);
+}
+
+dialog[open] {
+	overflow: visible;
+	background-color: var(--bg-secondary);
+	border-radius: var(--radius-md);
+	border: none;
+	border-left: solid 0.5rem var(--accent);
+}
+
+dialog::backdrop {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+label {
+	color: var(--text-muted);
+}
+
+input, textarea {
+	background-color: var(--bg-tertiary);
+	border: none;
+	border-radius: var(--radius-sm);
+	color: var(--text-primary);
+}
+
+label[required]::after {
+	content: " *";
+	color: var(--danger);
+	font-weight: 900;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+mark {
+	border-radius: var(--radius-sm);
+}
+
+mark[green] {
+	background-color: var(--green);
+}
+
+mark[red] {
+	background-color: var(--red);
+}
+
+mark[yellow] {
+	background-color: var(--yellow);
+}
+
+mark[purple] {
+	background-color: var(--purple);
+}
+
+strong {
+	font-weight: 900;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

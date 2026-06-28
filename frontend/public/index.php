@@ -1,9 +1,9 @@
-<?php
-    $page = $_GET["page"] ?? "home";
-    $path = __DIR__ . "/../pages/{$page}.php";
-    if (!file_exists($path)) {
-        http_response_code(404);
-        exit("Página não encontrada");
-    }
+<?php require __DIR__ . "/../includes/header.php"; ?>
 
-    require $path;
+<main>
+    <?php require __DIR__ . "/pages/home.php"; ?>
+    <?php require __DIR__ . "/pages/diary.php"; ?>
+    <?php require __DIR__ . "/pages/settings.php"; ?>
+</main>
+
+<?php require __DIR__ . "/../includes/footer.php"; ?>

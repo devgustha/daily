@@ -10,8 +10,7 @@ $created_at = $data["created_at"];
 $entry_date = $data["entry_date"];
 $entry_password = $data["entry_password"];
 
-$stmt = $db->prepare("
-    INSERT INTO diary(title, content, created_at, entry_date, entry_password)
+$stmt = $db->prepare("INSERT INTO diary(title, content, created_at, entry_date, entry_password)
     VALUES (?, ?, ?, ?, ?)
 ");
 

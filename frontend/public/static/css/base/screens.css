@@ -1,0 +1,3 @@
+#home-screen:not([data-visible]), #diary-screen:not([data-visible]), #settings-screen:not([data-visible]) {
+    display: none;
+}

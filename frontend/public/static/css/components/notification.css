@@ -1,0 +1,21 @@
+.notification {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    color: black;
+}
+
+.notification[data-type="success"] {
+    border-left: 0.5rem solid var(--success);
+    background-color: var(--success-bg);
+    border-right: 0.5rem solid var(--success);
+}
+
+.notification[data-type="error"] {
+    border-left: 0.5rem solid var(--error);
+    background-color: var(--error-bg);
+    border-right: 0.5rem solid var(--error);
+}
