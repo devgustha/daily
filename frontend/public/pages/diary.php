@@ -1,9 +1,9 @@
 <section id="diary-screen">
     <h1 class="center-text">Meu diário</h1>
-    <center><button id="new-entry-button">Nova entrada</button></center>
+    <button id="new-entry-button">Nova entrada</button>
 
     <dialog id="new-entry-modal">
-        <button class="close-button" onclick="closeNewEntryModal(false)">X</button>
+        <button class="close-button">X</button>
         <h1>Nova entrada</h1>
 
         <label for="new-entry-title" required>Título</label>

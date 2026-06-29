@@ -42,7 +42,7 @@ dialog[open] {
 	background-color: var(--bg-secondary);
 	border-radius: var(--radius-md);
 	border: none;
-	border-left: solid 0.5rem var(--accent);
+	border-left: solid var(--border-sm) var(--accent);
 }
 
 dialog::backdrop {
@@ -62,13 +62,14 @@ input, textarea {
 
 label[required]::after {
 	content: " *";
-	color: var(--danger);
-	font-weight: 900;
+	color: var(--danger-accent);
+	font-weight: var(--font-bolder);
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 mark {
 	border-radius: var(--radius-sm);
+	padding: var(--padding-xs);
 }
 
 mark[green] {
@@ -88,6 +89,6 @@ mark[purple] {
 }
 
 strong {
-	font-weight: 900;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: var(--font-bolder);
+	font-family: Arial, Helvetica, sans-serif;
 }

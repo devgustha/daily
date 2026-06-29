@@ -1,21 +1,48 @@
+#notification-container {
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	gap: var(--gap-md);
+	padding: var(--padding-md);
+	pointer-events: none;
+}
+
 .notification {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: var(--radius-md);
-    color: black;
+	padding: var(--padding-xl);
+	width: 80%;
+	border-radius: var(--radius-md);
 }
 
-.notification[data-type="success"] {
-    border-left: 0.5rem solid var(--success);
-    background-color: var(--success-bg);
-    border-right: 0.5rem solid var(--success);
+.notification[data-type='success'] {
+	border-left: var(--border-sm) solid var(--success-accent);
+	background-color: var(--success-bg);
+	border-right: var(--border-sm) solid var(--success-accent);
+    color: var(--success)
 }
 
-.notification[data-type="error"] {
-    border-left: 0.5rem solid var(--error);
-    background-color: var(--error-bg);
-    border-right: 0.5rem solid var(--error);
+.notification[data-type='warn'] {
+	border-left: var(--border-sm) solid var(--warning-accent);
+	background-color: var(--warning-bg);
+	border-right: var(--border-sm) solid var(--warning-accent);
+	color: var(--warning);
+}
+
+.notification[data-type='info'] {
+	border-left: var(--border-sm) solid var(--info-accent);
+	background-color: var(--info-bg);
+	border-right: var(--border-sm) solid var(--info-accent);
+    color: var(--info)
+}
+
+.notification[data-type='error'] {
+	border-left: var(--border-sm) solid var(--error-accent);
+	background-color: var(--error-bg);
+	border-right: var(--border-sm) solid var(--error-accent);
+    color: var(--error)
 }

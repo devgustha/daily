@@ -1,1 +1,1 @@
-php -S localhost:6776 -t frontend/public
+php -S localhost:5500 -t frontend/public
